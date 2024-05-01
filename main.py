@@ -1,5 +1,3 @@
-
-
 def main():
     print('Welcome to the Budget Tracker! Please choose an option below to begin.')
     result = ""
