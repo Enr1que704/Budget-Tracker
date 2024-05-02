@@ -1,5 +1,8 @@
 from tkinter import *
-from tk_create import openCreateWindow
+from windows.tk_create import openCreateWindow
+from windows.tk_edit import openEditWindow
+from windows.tk_view import openViewWindow
+from windows.tk_past import openPastWindow
 
 main = Tk(screenName="Main", baseName="Main", className="Main", useTk=1)
 main.title("Budget Tracker")
@@ -9,19 +12,13 @@ def openCreate():
     openCreateWindow(main)
 
 def openView():
-    newWindow = Toplevel(main)
-    newWindow.title("View a current budget")
-    newWindow.geometry("600x600")
+    openViewWindow(main)
 
 def openPast():
-    newWindow = Toplevel(main)
-    newWindow.title("View a past budget")
-    newWindow.geometry("600x600")
+    openPastWindow(main)
 
 def openEdit():
-    newWindow = Toplevel(main)
-    newWindow.title("Edit a current budget")
-    newWindow.geometry("600x600")
+    openEditWindow(main)
 
 title = Label(main, text="Welcome to the Budget Tracker! Please choose an option below to begin.")
 title.pack()
