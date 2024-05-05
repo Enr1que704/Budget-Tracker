@@ -1,0 +1,26 @@
+Json:
+    Year
+        Month
+            Item
+                Planned
+                Actual
+
+List items in JSON, so that if another item needs to be added, it can be input programmatically
+Or just use a database?
+
+db design:
+gas table:
+    pk(year, month), expected, actual
+rent table:
+    pk(year, month), expected, actual
+
+Make a new table if I want a new item
+SELECT name FROM sqlite_master WHERE type = "table" (gets a list of tables)
+
+CREATE TABLE INCOME (
+	"YEAR" INTEGER NOT NULL,
+	"MONTH" INTEGER NOT NULL,
+	EXPECTED INTEGER NOT NULL,
+	ACTUAL INTEGER,
+	CONSTRAINT INCOME_PK PRIMARY KEY ("YEAR","MONTH")
+);

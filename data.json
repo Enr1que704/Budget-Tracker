@@ -1,0 +1,43 @@
+{
+    "2023": {
+        "February": {
+            "Income": {
+                "Expected": 0,
+                "Actual": 0
+            },
+            "Rent": {
+                "Expected": 0,
+                "Actual": 0
+            },
+            "Utilities": {
+                "Expected": 0,
+                "Actual": 0
+            },
+            "Groceries": {
+                "Expected": 0,
+                "Actual": 0
+            },
+            "Transportation": {
+                "Expected": 0,
+                "Actual": 0
+            },
+            "Health": {
+                "Expected": 0,
+                "Actual": 0
+            },
+            "Entertainment": {
+                "Expected": 0,
+                "Actual": 0
+            },
+            "Loan Payments": {
+                "Expected": 0,
+                "Actual": 0
+            },
+            "Miscellaneous": {
+                "Expected": 0,
+                "Actual": 0
+            }
+        }
+    },
+    "2024":
+}
